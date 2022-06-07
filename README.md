@@ -24,12 +24,17 @@ A list of everything new in SwiftUI after WWDC 2022.
 
 # SwiftUI Views
 ## New Controls
+* [AnyLayout](https://developer.apple.com/documentation/swiftui/anylayout/) - A view that can represent a container view such as a VStack, HStack, grids, etc.
 * [Gauge](https://developer.apple.com/documentation/swiftui/gauge) - A view that shows a value within a range. This can be circular or straight.
+* [Grid](https://developer.apple.com/documentation/swiftui/grid) - A container view that arranges other views in a two dimensional layout with the use of the [GridRow](https://developer.apple.com/documentation/swiftui/gridrow).
+* [Layout](https://developer.apple.com/documentation/swiftui/gridrow) - Not exactly a new control but rather a new protocol that you can conform to so you can create your own custom layout container control.
 * [MultiDatePicker](https://developer.apple.com/documentation/swiftui/multidatepicker) - A control for picking multiple dates.
 * [NavigationStack](https://developer.apple.com/documentation/swiftui/navigationstack) - A view that displays a root view and enables you to present additional views over the root view. To navigate, use a NavigationLink in combination with the [navigationDestination](https://developer.apple.com/documentation/swiftui/view/navigationdestination(for:destination:)) modifier. You can also specify a [NavigationPath](https://developer.apple.com/documentation/swiftui/navigationpath) to create or manage your stack of views.
 * [NavigationSplitView](https://developer.apple.com/documentation/swiftui/navigationsplitview) - A container that presents 2 or 3 views in columns. (sidebar, content, detail)
 * [RenameButton](https://developer.apple.com/documentation/swiftui/renamebutton) - A button that triggers a standard rename action. Used with the renameAction modifier.
 * [ShareLink](https://developer.apple.com/documentation/swiftui/sharelink) - A view that controls a sharing presentation.
+* [ViewThatFits](https://developer.apple.com/documentation/swiftui/viewthatfits) - A container view that adapts to the available space by providing the first child view that fits.
+
 
 ## Updated Controls
 ### NavigationLink
