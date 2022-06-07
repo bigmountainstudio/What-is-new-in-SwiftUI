@@ -1,4 +1,6 @@
 # What's New In SwiftUI for iOS Cheat Sheet - WWDC22
+![new](https://user-images.githubusercontent.com/24855856/172445863-16ae2d0b-4617-416c-8619-5e1aca2f78b0.png)
+
 By [Big Mountain Studio](https://www.bigmountainstudio.com/)
 
 A list of everything new in SwiftUI after WWDC 2022.
@@ -42,6 +44,8 @@ A list of everything new in SwiftUI after WWDC 2022.
 ## Updated Controls
 ### Color
 * Has a new fixed [gradient](https://developer.apple.com/documentation/swiftui/color/gradient/) modifier that seems to lighten the color at the top in a linear gradient.
+* You can apply a [shadow](https://developer.apple.com/documentation/swiftui/shadowstyle) directly to a color too.
+* Shadows can now be [drop](https://developer.apple.com/documentation/swiftui/shadowstyle/drop(color:radius:x:y:)) or [inner](https://developer.apple.com/documentation/swiftui/shadowstyle/inner(color:radius:x:y:)) shadows.
 
 ### NavigationLink
 * Works in combination with the [navigationDestination](https://developer.apple.com/documentation/swiftui/view/navigationdestination(for:destination:)) modifier. NavigationLinks have values and if there is a navigationDestination modifier that matches the NavigationLink's value type, then it is used and navigates to the view the navigationDestination specifies.
