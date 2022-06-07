@@ -5,7 +5,6 @@ A list of everything new in SwiftUI after WWDC 2022.
 
 # Working with Data
 ## Environment Values
-### New
 * [accessibilityQuickActionsEnabled](https://developer.apple.com/documentation/swiftui/environmentvalues/accessibilityquickactionsenabled) - Shows quick action bar.
 * [renameAction](https://developer.apple.com/documentation/swiftui/environmentvalues/rename) - Activates standard rename action.
 * [menuOrder](https://developer.apple.com/documentation/swiftui/environmentvalues/menuorder) - The preferred order of items for menus.
@@ -22,10 +21,6 @@ A list of everything new in SwiftUI after WWDC 2022.
 * [contentTransition](https://developer.apple.com/documentation/swiftui/environmentvalues/contenttransition) - Method of animating the contents of views.
 * [contentTransitionAddsDrawingGroup](https://developer.apple.com/documentation/swiftui/environmentvalues/contenttransitionaddsdrawinggroup) - Transition with GPU-acceleration or not.
 * [showsWidgetLabel](https://developer.apple.com/documentation/swiftui/environmentvalues/showswidgetlabel) - Tells you if you can or can't display an accessory label.
-### Deprecated
-* disableAutocorrection
-* sizeCategory
-* presentationMode
 
 # SwiftUI Views
 ## New Controls
@@ -37,11 +32,11 @@ A list of everything new in SwiftUI after WWDC 2022.
 * [ShareLink](https://developer.apple.com/documentation/swiftui/sharelink) - A view that controls a sharing presentation.
 
 ## Updated Controls
-## NavigationLink
+### NavigationLink
 * Works in combination with the [navigationDestination](https://developer.apple.com/documentation/swiftui/view/navigationdestination(for:destination:)) modifier. NavigationLinks have values and if there is a navigationDestination modifier that matches the NavigationLink's value type, then it is used and navigates to the view the navigationDestination specifies.
-## Stepper
+### Stepper
 * You can provide a [format] parameter to handle conversions for number, percent, dateTime, iso8601 date format and now URL format.
-## Toggle
+### Toggle
 * You can bind a Toggle to an array of values.
 
 
