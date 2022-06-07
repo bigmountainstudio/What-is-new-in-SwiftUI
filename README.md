@@ -1,4 +1,6 @@
 # What Is New In SwiftUI - WWDC22 - iOS
+By [Big Mountain Studio](https://www.bigmountainstudio.com/)
+
 A list of everything new and deprecated for SwiftUI after WWDC 2022.
 (Note: I don't list things that have been updated.)
 
@@ -41,17 +43,28 @@ A list of everything new and deprecated for SwiftUI after WWDC 2022.
 * [widgetAccentable](https://developer.apple.com/documentation/swiftui/view/widgetaccentable(_:)) - Adds view and all subviews to the accented group.
 * [widgetLabel](https://developer.apple.com/documentation/swiftui/view/widgetlabel(_:)-7wguh) - Returns a text label that displays additional content outside the accessory family widget’s main SwiftUI view.
 ## Text and Symbol Modifiers
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
+Many of the modifiers that were just for Text can now be applied to any view and all Text within will adopt the modifier.
+
+* [bold(isActive:)](https://developer.apple.com/documentation/swiftui/view/bold(_:)) - Applies bold to views when isActive is true.
+* [fontWeight](https://developer.apple.com/documentation/swiftui/view/fontweight(_:)) - Can now be applied to views (not just Text).
+* [italic(isActive:)](https://developer.apple.com/documentation/swiftui/view/italic(_:)) - Applies italics to views when isActive is true.
+* [strikethrough(_:pattern:color:)](https://developer.apple.com/documentation/swiftui/view/strikethrough(_:pattern:color:)) - Can now be applied to views (not just Text).
+* [underline(_:pattern:color:)](https://developer.apple.com/documentation/swiftui/view/underline(_:pattern:color:)) - Can now be applied to views (not just Text).
+* [baselineOffset](https://developer.apple.com/documentation/swiftui/view/baselineoffset(_:)) - Vertical offset that can now be applied to views (not just Text).
+* [kerning](https://developer.apple.com/documentation/swiftui/view/kerning(_:)) - Spacing between characters that can now be applied to views (not just Text).
+* [tracking](https://developer.apple.com/documentation/swiftui/view/tracking(_:)) - Spacing between all characters that can now be applied to views (not just Text).
+* [lineLimit](https://developer.apple.com/documentation/swiftui/view/linelimit(_:)-7ufty) - Line limit can now be applied to Text AND a vertical TextField.
+* [autocorrectionDisabled](https://developer.apple.com/documentation/swiftui/view/autocorrectiondisabled(_:)) - Used to be disableAutoCorrection on TextField. Can be applied to any view now.
+* [scrollDismissesKeyboard](https://developer.apple.com/documentation/swiftui/view/scrolldismisseskeyboard(_:)) - Dismiss keyboard when scrolling, never, automatically based on context or allow user to choose.
+* [findNavigator(isPresented:)](https://developer.apple.com/documentation/swiftui/view/findnavigator(ispresented:)) - Presents the find and replace interface for TextEditor views.
+* [findDisabled](https://developer.apple.com/documentation/swiftui/view/finddisabled(_:)) - Prevents find and replace operations in a TextEditor.
+* [replaceDisabled](https://developer.apple.com/documentation/swiftui/view/replacedisabled(_:)) - Prevents replace operations in a TextEditor.
+## Navigation Modifiers
+
+## Toolbar Modifiers
+
+## Other Auxilary View Modifiers
+
 # Animations Mastery
 
 
