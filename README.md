@@ -1,4 +1,7 @@
 # What's New In SwiftUI for iOS Cheat Sheet - WWDC22
+
+![wwdc22 small](https://user-images.githubusercontent.com/24855856/172310630-31ef0723-d0b4-4a7a-897b-bf207aabf464.png)
+
 By [Big Mountain Studio](https://www.bigmountainstudio.com/)
 
 A list of everything new in SwiftUI after WWDC 2022.
