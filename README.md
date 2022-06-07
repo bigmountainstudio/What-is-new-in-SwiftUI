@@ -24,7 +24,7 @@ A list of everything new in SwiftUI after WWDC 2022.
 
 # SwiftUI Views
 ## New Controls
-* [Guage](https://developer.apple.com/documentation/swiftui/gauge) - A view that shows a value within a range. This can be circular or straight.
+* [Gauge](https://developer.apple.com/documentation/swiftui/gauge) - A view that shows a value within a range. This can be circular or straight.
 * [MultiDatePicker](https://developer.apple.com/documentation/swiftui/multidatepicker) - A control for picking multiple dates.
 * [NavigationStack](https://developer.apple.com/documentation/swiftui/navigationstack) - A view that displays a root view and enables you to present additional views over the root view. To navigate, use a NavigationLink in combination with the [navigationDestination](https://developer.apple.com/documentation/swiftui/view/navigationdestination(for:destination:)) modifier. You can also specify a [NavigationPath](https://developer.apple.com/documentation/swiftui/navigationpath) to create or manage your stack of views.
 * [NavigationSplitView](https://developer.apple.com/documentation/swiftui/navigationsplitview) - A container that presents 2 or 3 views in columns. (sidebar, content, detail)
