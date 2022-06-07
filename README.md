@@ -34,6 +34,7 @@ A list of everything new in SwiftUI after WWDC 2022.
 * [NavigationSplitView](https://developer.apple.com/documentation/swiftui/navigationsplitview) - A container that presents 2 or 3 views in columns. (sidebar, content, detail)
 * [RenameButton](https://developer.apple.com/documentation/swiftui/renamebutton) - A button that triggers a standard rename action. Used with the renameAction modifier.
 * [ShareLink](https://developer.apple.com/documentation/swiftui/sharelink) - A view that controls a sharing presentation.
+* [Table](https://developer.apple.com/documentation/swiftui/table) - A container that presents rows of data arranged in one or more columns, optionally providing the ability to select one or more members, sort data, and style it.
 * [ViewThatFits](https://developer.apple.com/documentation/swiftui/viewthatfits) - A container view that adapts to the available space by providing the first child view that fits.
 
 
@@ -135,7 +136,8 @@ There are over a dozen new searchable modifiers that can be used now. Rather tha
 
 ## Text Input & Output
 ### TextField
-The TextField can now overflow horizontally or vertically by specifying an [axis](https://developer.apple.com/documentation/swiftui/textfield/init(_:text:axis:)-7n1bm).
+* The TextField can now overflow horizontally or vertically by specifying an [axis](https://developer.apple.com/documentation/swiftui/textfield/init(_:text:axis:)-7n1bm).
+* A lienLimit modifier with one or a range of values can be added to specify how much the TextField can grow. Beyond that a scroll indicator will appear.
 ### TextEditor
 * [findNavigator](https://developer.apple.com/documentation/swiftui/view/findnavigator(ispresented:)) - Programmatically presents the find and replace interface for text editor views.
 * [findDisabled](https://developer.apple.com/documentation/swiftui/view/finddisabled(_:)) - Prevents find and replace operations in a text editor.
