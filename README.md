@@ -133,6 +133,7 @@ The TextField can now overflow horizontally or vertically by specifying an [axis
 * [findNavigator](https://developer.apple.com/documentation/swiftui/view/findnavigator(ispresented:)) - Programmatically presents the find and replace interface for text editor views.
 * [findDisabled](https://developer.apple.com/documentation/swiftui/view/finddisabled(_:)) - Prevents find and replace operations in a text editor.
 * [replaceDisabled](https://developer.apple.com/documentation/swiftui/view/replacedisabled(_:)) - Prevents replace operations in a text editor.
+
 ### Font
 * [system(size:weight:design:)](https://developer.apple.com/documentation/swiftui/font/system(size:weight:design:)-697b2) - While the signature looks the same, the weight and design are now optional instead of required.
 
