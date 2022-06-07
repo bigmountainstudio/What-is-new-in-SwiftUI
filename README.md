@@ -27,6 +27,7 @@ A list of everything new in SwiftUI after WWDC 2022.
 * [AnyLayout](https://developer.apple.com/documentation/swiftui/anylayout/) - A view that can represent a container view such as a VStack, HStack, grids, etc.
 * [Gauge](https://developer.apple.com/documentation/swiftui/gauge) - A view that shows a value within a range. This can be circular or straight.
 * [Grid](https://developer.apple.com/documentation/swiftui/grid) - A container view that arranges other views in a two dimensional layout with the use of the [GridRow](https://developer.apple.com/documentation/swiftui/gridrow).
+* [LabeledContent](https://developer.apple.com/documentation/swiftui/labeledcontent/) - A container for attaching a label to a value-bearing view. This way it can layout appropriately depending on where it's used. For example, if in a Form, the label will be leading and the content portion will be trailing and gray.
 * [Layout](https://developer.apple.com/documentation/swiftui/gridrow) - Not exactly a new control but rather a new protocol that you can conform to so you can create your own custom layout container control.
 * [MultiDatePicker](https://developer.apple.com/documentation/swiftui/multidatepicker) - A control for picking multiple dates.
 * [NavigationStack](https://developer.apple.com/documentation/swiftui/navigationstack) - A view that displays a root view and enables you to present additional views over the root view. To navigate, use a NavigationLink in combination with the [navigationDestination](https://developer.apple.com/documentation/swiftui/view/navigationdestination(for:destination:)) modifier. You can also specify a [NavigationPath](https://developer.apple.com/documentation/swiftui/navigationpath) to create or manage your stack of views.
@@ -45,6 +46,7 @@ A list of everything new in SwiftUI after WWDC 2022.
 
 ### Toggle
 * You can bind a Toggle to an array of values.
+* Multiple Text views within will be arranged hierarchically. (Second line less prominent than first line.)
 
 
 ## Accessibility Modifiers
