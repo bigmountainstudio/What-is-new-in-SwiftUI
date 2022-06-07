@@ -32,6 +32,7 @@ A list of everything new in SwiftUI after WWDC 2022.
 * [MultiDatePicker](https://developer.apple.com/documentation/swiftui/multidatepicker) - A control for picking multiple dates.
 * [NavigationStack](https://developer.apple.com/documentation/swiftui/navigationstack) - A view that displays a root view and enables you to present additional views over the root view. To navigate, use a NavigationLink in combination with the [navigationDestination](https://developer.apple.com/documentation/swiftui/view/navigationdestination(for:destination:)) modifier. You can also specify a [NavigationPath](https://developer.apple.com/documentation/swiftui/navigationpath) to create or manage your stack of views.
 * [NavigationSplitView](https://developer.apple.com/documentation/swiftui/navigationsplitview) - A container that presents 2 or 3 views in columns. (sidebar, content, detail)
+* [PhotosPicker](https://developer.apple.com/documentation/photokit/photospicker/) - A view that displays a Photos picker for choosing assets from the photo library. A selected photo is represented by a [PhotosPickerItem](https://developer.apple.com/documentation/photokit/photospickeritem).
 * [RenameButton](https://developer.apple.com/documentation/swiftui/renamebutton) - A button that triggers a standard rename action. Used with the renameAction modifier.
 * [ShareLink](https://developer.apple.com/documentation/swiftui/sharelink) - A view that controls a sharing presentation.
 * [Table](https://developer.apple.com/documentation/swiftui/table) - A container that presents rows of data arranged in one or more columns, optionally providing the ability to select one or more members, sort data, and style it.
@@ -39,6 +40,9 @@ A list of everything new in SwiftUI after WWDC 2022.
 
 
 ## Updated Controls
+### Color
+* Has a new fixed [gradient](https://developer.apple.com/documentation/swiftui/color/gradient/) modifier that seems to lighten the color at the top in a linear gradient.
+
 ### NavigationLink
 * Works in combination with the [navigationDestination](https://developer.apple.com/documentation/swiftui/view/navigationdestination(for:destination:)) modifier. NavigationLinks have values and if there is a navigationDestination modifier that matches the NavigationLink's value type, then it is used and navigates to the view the navigationDestination specifies.
 
