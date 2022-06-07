@@ -60,12 +60,29 @@ Many of the modifiers that were just for Text can now be applied to any view and
 * [findDisabled](https://developer.apple.com/documentation/swiftui/view/finddisabled(_:)) - Prevents find and replace operations in a TextEditor.
 * [replaceDisabled](https://developer.apple.com/documentation/swiftui/view/replacedisabled(_:)) - Prevents replace operations in a TextEditor.
 ## Navigation Modifiers
-
+* [navigationTitle(:Binding<String>)](https://developer.apple.com/documentation/swiftui/view/navigationtitle(_:)-7onr8) - Allows navigation title editing.
+* [navigationTitle(_:actions:)](https://developer.apple.com/documentation/swiftui/view/navigationtitle(_:actions:)-1jl6s) - Configures the navigation title with associated actions and a title.
+* [navigationDocument](https://developer.apple.com/documentation/swiftui/view/navigationdocument(_:)-66zro) - Configures the view’s document for purposes of navigaiton.
+* [navigationDestination](https://developer.apple.com/documentation/swiftui/view/navigationdestination(for:destination:)) - Associates a destination view with a presented data type for use within a navigation stack.
 ## Toolbar Modifiers
+* [toolbar(_:in:)](https://developer.apple.com/documentation/swiftui/view/toolbar(_:in:)) - Specifies the visibility of a bar managed by SwiftUI. (Place it automatically, bottom, navigation bar, tab bar or window toolbar.)
+* [toolbarBackground](https://developer.apple.com/documentation/swiftui/view/toolbarbackground(_:in:)-1k7vw) - Customize the background style.
+* [toolbarColorScheme](https://developer.apple.com/documentation/swiftui/view/toolbarcolorscheme(_:in:)) - Specifies the preferred color scheme (light or dark) of a bar.
+* [toolbarRole](https://developer.apple.com/documentation/swiftui/view/toolbarrole(_:)) - Configures the semantic role (automatic, browser, editor, navigationStack) for the content populating the toolbar.
+## Context Menu
+* [contextMenu(menuItems:preview:)](https://developer.apple.com/documentation/swiftui/view/contextmenu(menuitems:preview:)) - Adds a context menu with a preview to a view.
+## Style Modifiers
+* [gaugeStyle](https://developer.apple.com/documentation/swiftui/view/gaugestyle(_:)) - Sets the style for gauges within this view. (New for iOS)
+* [tableStyle](https://developer.apple.com/documentation/swiftui/view/tablestyle(_:)) - Sets the style for tables within this view. (New for iOS)
+* [disclosureGroupStyle](https://developer.apple.com/documentation/swiftui/view/disclosuregroupstyle(_:)) - Sets the style for disclosure groups within this view.
+* [navigationSplitViewStyle](https://developer.apple.com/documentation/swiftui/view/navigationsplitviewstyle(_:)) - Sets the style for navigation split views within this view.
+## Grid Modifiers
+* [gridCellColumns](https://developer.apple.com/documentation/swiftui/view/gridcellcolumns(_:)) - Tells a view that acts as a cell in a grid to span the specified number of rows.
+* [gridCellAnchor](https://developer.apple.com/documentation/swiftui/view/gridcellanchor(_:)) - Custom alignment anchor for a view that acts as a grid cell. (top, topLeading, topTrailing, bottom, etc.)
+* [gridCellUnsizedAxes](https://developer.apple.com/documentation/swiftui/view/gridcellunsizedaxes(_:)) - Asks grid layouts not to offer the view extra size in the specified axes (horizontal or vertical).
+* [gridColumnAlignment](https://developer.apple.com/documentation/swiftui/view/gridcolumnalignment(_:)) - Overrides the default horizontal alignment of the grid column that the view appears in. 
 
-## Other Auxilary View Modifiers
-
-# Animations Mastery
-
+# Animations
+* [contentTransition](https://developer.apple.com/documentation/swiftui/view/contenttransition(_:)) - Modifies the view to use a given transition as its method of animating changes to the contents of its views.
 
 # Charts
