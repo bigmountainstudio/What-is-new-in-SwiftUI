@@ -27,6 +27,7 @@ A list of everything new in SwiftUI after WWDC 2022.
 # SwiftUI Views
 ## New Controls
 * [AnyLayout](https://developer.apple.com/documentation/swiftui/anylayout/) - A view that can represent a container view such as a VStack, HStack, grids, etc.
+* [Chart](https://developer.apple.com/documentation/Charts/Chart) - A SwiftUI view that displays a chart.
 * [Gauge](https://developer.apple.com/documentation/swiftui/gauge) - A view that shows a value within a range. This can be circular or straight.
 * [Grid](https://developer.apple.com/documentation/swiftui/grid) - A container view that arranges other views in a two dimensional layout with the use of the [GridRow](https://developer.apple.com/documentation/swiftui/gridrow).
 * [LabeledContent](https://developer.apple.com/documentation/swiftui/labeledcontent/) - A container for attaching a label to a value-bearing view. This way it can layout appropriately depending on where it's used. For example, if in a Form, the label will be leading and the content portion will be trailing and gray.
@@ -162,4 +163,13 @@ The Image initializer now has a new parameter called [variableValue](https://dev
 * [contentTransition](https://developer.apple.com/documentation/swiftui/view/contenttransition(_:)) - Modifies the view to use a given transition as its method of animating changes to the contents of its views.
 
 # Charts
-* More research needed here...
+* [Chart](https://developer.apple.com/documentation/Charts/Chart) - A SwiftUI view that displays a chart. You can customize many parts of the chart:
+  * Background
+  * Foreground
+  * Style such as bar, point, area, rule, rectangle or line charts
+  * Plot area
+  * Legends
+  * Overlays
+  * Visibility of the X or Y axis
+  * Scale of the X or Y axis
+  * Scale and size of symbols used
