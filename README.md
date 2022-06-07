@@ -145,4 +145,4 @@ The Image initializer now has a new parameter called [variableValue](https://dev
 * [contentTransition](https://developer.apple.com/documentation/swiftui/view/contenttransition(_:)) - Modifies the view to use a given transition as its method of animating changes to the contents of its views.
 
 # Charts
-* []() - 
+* More research needed here...
