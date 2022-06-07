@@ -1,7 +1,4 @@
 # What's New In SwiftUI for iOS Cheat Sheet - WWDC22
-
-![wwdc22 small](https://user-images.githubusercontent.com/24855856/172310630-31ef0723-d0b4-4a7a-897b-bf207aabf464.png)
-
 By [Big Mountain Studio](https://www.bigmountainstudio.com/)
 
 A list of everything new in SwiftUI after WWDC 2022.
@@ -37,8 +34,10 @@ A list of everything new in SwiftUI after WWDC 2022.
 ## Updated Controls
 ### NavigationLink
 * Works in combination with the [navigationDestination](https://developer.apple.com/documentation/swiftui/view/navigationdestination(for:destination:)) modifier. NavigationLinks have values and if there is a navigationDestination modifier that matches the NavigationLink's value type, then it is used and navigates to the view the navigationDestination specifies.
+
 ### Stepper
-* You can provide a [format] parameter to handle conversions for number, percent, dateTime, iso8601 date format and now URL format.
+* You can provide a [format](https://developer.apple.com/documentation/foundation/parseableformatstyle) parameter to handle conversions for number, percent, dateTime, iso8601 date format and now URL format.
+
 ### Toggle
 * You can bind a Toggle to an array of values.
 
@@ -54,7 +53,7 @@ A list of everything new in SwiftUI after WWDC 2022.
 * [scrollDisabled](https://developer.apple.com/documentation/swiftui/view/scrolldisabled(_:)) - Disables or enables scrolling in scrollable views.
 * [menuOrder](https://developer.apple.com/documentation/swiftui/view/menuorder(_:)) - The preferred order of items for menus. (Fixed, Priority)
 * [persistentSystemOverlays](https://developer.apple.com/documentation/swiftui/view/persistentsystemoverlays(_:)) - Preferred visibility of the non-transient system views overlaying the app.
-* [scrollIndicators(_:axes:)](https://developer.apple.com/documentation/swiftui/view/scrollindicators(_:axes:)) - Sets the visibility of scroll indicators within this view.
+* [scrollIndicators(:axes:)](https://developer.apple.com/documentation/swiftui/view/scrollindicators(_:axes:)) - Sets the visibility of scroll indicators within this view.
 * [widgetAccentable](https://developer.apple.com/documentation/swiftui/view/widgetaccentable(_:)) - Adds view and all subviews to the accented group.
 * [widgetLabel](https://developer.apple.com/documentation/swiftui/view/widgetlabel(_:)-7wguh) - Returns a text label that displays additional content outside the accessory family widget’s main SwiftUI view.
 
@@ -64,8 +63,8 @@ Many of the modifiers that were just for Text can now be applied to any view and
 * [bold(isActive:)](https://developer.apple.com/documentation/swiftui/view/bold(_:)) - Applies bold to views when isActive is true.
 * [fontWeight](https://developer.apple.com/documentation/swiftui/view/fontweight(_:)) - Can now be applied to views (not just Text).
 * [italic(isActive:)](https://developer.apple.com/documentation/swiftui/view/italic(_:)) - Applies italics to views when isActive is true.
-* [strikethrough(_:pattern:color:)](https://developer.apple.com/documentation/swiftui/view/strikethrough(_:pattern:color:)) - Can now be applied to views (not just Text).
-* [underline(_:pattern:color:)](https://developer.apple.com/documentation/swiftui/view/underline(_:pattern:color:)) - Can now be applied to views (not just Text).
+* [strikethrough(:pattern:color:)](https://developer.apple.com/documentation/swiftui/view/strikethrough(_:pattern:color:)) - Can now be applied to views (not just Text).
+* [underline(:pattern:color:)](https://developer.apple.com/documentation/swiftui/view/underline(_:pattern:color:)) - Can now be applied to views (not just Text).
 * [baselineOffset](https://developer.apple.com/documentation/swiftui/view/baselineoffset(_:)) - Vertical offset that can now be applied to views (not just Text).
 * [kerning](https://developer.apple.com/documentation/swiftui/view/kerning(_:)) - Spacing between characters that can now be applied to views (not just Text).
 * [tracking](https://developer.apple.com/documentation/swiftui/view/tracking(_:)) - Spacing between all characters that can now be applied to views (not just Text).
@@ -77,13 +76,13 @@ Many of the modifiers that were just for Text can now be applied to any view and
 * [replaceDisabled](https://developer.apple.com/documentation/swiftui/view/replacedisabled(_:)) - Prevents replace operations in a TextEditor.
 
 ## Navigation Modifiers
-* [navigationTitle(:Binding<String>)](https://developer.apple.com/documentation/swiftui/view/navigationtitle(_:)-7onr8) - Allows navigation title editing.
-* [navigationTitle(_:actions:)](https://developer.apple.com/documentation/swiftui/view/navigationtitle(_:actions:)-1jl6s) - Configures the navigation title with associated actions and a title.
+* [navigationTitle(title:Binding)](https://developer.apple.com/documentation/swiftui/view/navigationtitle(_:)-7onr8) - Allows navigation title editing.
+* [navigationTitle(:actions:)](https://developer.apple.com/documentation/swiftui/view/navigationtitle(_:actions:)-1jl6s) - Configures the navigation title with associated actions and a title.
 * [navigationDocument](https://developer.apple.com/documentation/swiftui/view/navigationdocument(_:)-66zro) - Configures the view’s document for purposes of navigaiton.
 * [navigationDestination](https://developer.apple.com/documentation/swiftui/view/navigationdestination(for:destination:)) - Associates a destination view with a presented data type for use within a navigation stack.
 
 ## Toolbar Modifiers
-* [toolbar(_:in:)](https://developer.apple.com/documentation/swiftui/view/toolbar(_:in:)) - Specifies the visibility of a bar managed by SwiftUI. (Place it automatically, bottom, navigation bar, tab bar or window toolbar.)
+* [toolbar(:in:)](https://developer.apple.com/documentation/swiftui/view/toolbar(_:in:)) - Specifies the visibility of a bar managed by SwiftUI. (Place it automatically, bottom, navigation bar, tab bar or window toolbar.)
 * [toolbarBackground](https://developer.apple.com/documentation/swiftui/view/toolbarbackground(_:in:)-1k7vw) - Customize the background style.
 * [toolbarColorScheme](https://developer.apple.com/documentation/swiftui/view/toolbarcolorscheme(_:in:)) - Specifies the preferred color scheme (light or dark) of a bar.
 * [toolbarRole](https://developer.apple.com/documentation/swiftui/view/toolbarrole(_:)) - Configures the semantic role (automatic, browser, editor, navigationStack) for the content populating the toolbar.
