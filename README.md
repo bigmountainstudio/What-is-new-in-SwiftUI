@@ -55,7 +55,7 @@ A list of everything new in SwiftUI after WWDC 2022.
 * You can provide a [format](https://developer.apple.com/documentation/foundation/parseableformatstyle) parameter to handle conversions for number, percent, dateTime, iso8601 date format and now URL format.
 
 ### Toggle
-* You can bind a Toggle to an array of values.
+* You can bind a [Toggle](https://developer.apple.com/documentation/swiftui/toggle/init(ison:label:)-akjv) to a collection of values.
 * Multiple Text views within will be arranged hierarchically. (Second line less prominent than first line.)
 
 
@@ -126,13 +126,14 @@ Many of the modifiers that were just for Text can now be applied to any view and
 * [defaultFocus](https://developer.apple.com/documentation/swiftui/view/defaultfocus(_:_:priority:)) - Default focus is evaluated by assigning a value to a given focus state binding.
 
 ## Searchable
-There are over a dozen new searchable modifiers that can be used now. Rather than go through them all, I think it would be better to just list out some of the new parameters:
+There are over a dozen new [searchable initializers](https://developer.apple.com/documentation/swiftui/capsule/searchable(text:scope:placement:prompt:scopes:)-58flg) that can be used now. Rather than go through them all, I think it would be better to just list out some of the new parameters:
 * **scope**: A binding for the active scope of the search field.
 * **scopes**: A view builder representing the scopes of the search field which will be used to populate a Picker.
 * **token**: A view builder that creates a view given an element in tokens.
 * **tokens**: A collection of tokens to display and edit in the search field.
-* **suggestedTokens**: A collection of tokens to display as suggestions.
-* [SearchSuggestionsPlacement](https://developer.apple.com/documentation/swiftui/searchsuggestionsplacement) - A structure that defines ways in which search suggestions may be placed. (automatic, content, menu)
+* **[suggestedTokens](https://developer.apple.com/documentation/swiftui/capsule/searchable(text:tokens:suggestedtokens:placement:prompt:token:)-6b62c/)**: A collection of tokens to display as suggestions.
+
+[SearchSuggestionsPlacement](https://developer.apple.com/documentation/swiftui/environmentvalues/searchsuggestionsplacement) - A structure that defines ways in which search suggestions may be placed. (automatic, content, menu)
 
 ## Presentation Modifiers
 * [presentationDetents](https://developer.apple.com/documentation/swiftui/view/presentationdetents(_:)) - Sets the available detents for the enclosing sheet. (medium, large, custom, fraction, height)
@@ -146,7 +147,7 @@ There are over a dozen new searchable modifiers that can be used now. Rather tha
 ## Text Input & Output
 ### TextField
 * The TextField can now overflow horizontally or vertically by specifying an [axis](https://developer.apple.com/documentation/swiftui/textfield/init(_:text:axis:)-7n1bm).
-* A lienLimit modifier with one or a range of values can be added to specify how much the TextField can grow. Beyond that a scroll indicator will appear.
+* A [lienLimit](https://developer.apple.com/documentation/swiftui/ellipse/linelimit(_:)-1hy18/) modifier with one or a range of values can be added to specify how much the TextField can grow. Beyond that a scroll indicator will appear.
 ### TextEditor
 * [findNavigator](https://developer.apple.com/documentation/swiftui/view/findnavigator(ispresented:)) - Programmatically presents the find and replace interface for text editor views.
 * [findDisabled](https://developer.apple.com/documentation/swiftui/view/finddisabled(_:)) - Prevents find and replace operations in a text editor.
@@ -173,3 +174,6 @@ The Image initializer now has a new parameter called [variableValue](https://dev
   * Visibility of the X or Y axis
   * Scale of the X or Y axis
   * Scale and size of symbols used
+
+
+![Gold logo](https://user-images.githubusercontent.com/24855856/173091471-81c1c475-fc64-4cb0-8149-343719a1cb12.png)
