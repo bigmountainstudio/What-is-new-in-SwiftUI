@@ -66,7 +66,7 @@ A list of everything new in SwiftUI after WWDC 2022.
 
 ## Appearance Modifiers
 * [backgroundStyle](https://developer.apple.com/documentation/swiftui/view/backgroundstyle(_:)) - Sets the specified style to render backgrounds within the view.
-* [tint(ShapeStyle](https://developer.apple.com/documentation/swiftui/view/tint(_:)-93mfq) - Sets the tint within this view.
+* [tint(ShapeStyle)](https://developer.apple.com/documentation/swiftui/view/tint(_:)-93mfq) - Sets the tint within this view using a ShapeStyle (which can be a color, gradient, blur, etc).
 * [scrollDisabled](https://developer.apple.com/documentation/swiftui/view/scrolldisabled(_:)) - Disables or enables scrolling in scrollable views.
 * [menuOrder](https://developer.apple.com/documentation/swiftui/view/menuorder(_:)) - The preferred order of items for menus. (Fixed, Priority)
 * [persistentSystemOverlays](https://developer.apple.com/documentation/swiftui/view/persistentsystemoverlays(_:)) - Preferred visibility of the non-transient system views overlaying the app.
@@ -147,7 +147,7 @@ There are over a dozen new [searchable initializers](https://developer.apple.com
 ## Text Input & Output
 ### TextField
 * The TextField can now overflow horizontally or vertically by specifying an [axis](https://developer.apple.com/documentation/swiftui/textfield/init(_:text:axis:)-7n1bm).
-* A [lienLimit](https://developer.apple.com/documentation/swiftui/ellipse/linelimit(_:)-1hy18/) modifier with one or a range of values can be added to specify how much the TextField can grow. Beyond that a scroll indicator will appear.
+* A [lineLimit](https://developer.apple.com/documentation/swiftui/ellipse/linelimit(_:)-1hy18/) modifier with one or a range of values can be added to specify how much the TextField can grow. Beyond that a scroll indicator will appear.
 ### TextEditor
 * [findNavigator](https://developer.apple.com/documentation/swiftui/view/findnavigator(ispresented:)) - Programmatically presents the find and replace interface for text editor views.
 * [findDisabled](https://developer.apple.com/documentation/swiftui/view/finddisabled(_:)) - Prevents find and replace operations in a text editor.
