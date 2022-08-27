@@ -55,7 +55,7 @@ A list of everything new in SwiftUI after WWDC 2022.
 * You can provide a [format](https://developer.apple.com/documentation/foundation/parseableformatstyle) parameter to handle conversions for number, percent, dateTime, iso8601 date format and now URL format.
 
 ### Toggle
-* You can bind a [Toggle](https://developer.apple.com/documentation/swiftui/toggle/init(ison:label:)-akjv) to a collection of values.
+* You can bind a [Toggle](https://developer.apple.com/documentation/swiftui/toggle/init(sources:ison:label:)) to a collection of values.
 * Multiple Text views within will be arranged hierarchically. (Second line less prominent than first line.)
 
 
