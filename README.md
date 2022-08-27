@@ -94,7 +94,6 @@ Many of the modifiers that were just for Text can now be applied to any view and
 
 ## Navigation Modifiers
 * [navigationTitle(title:Binding)](https://developer.apple.com/documentation/swiftui/view/navigationtitle(_:)-7onr8) - Allows navigation title editing.
-* [navigationTitle(:actions:)](https://developer.apple.com/documentation/swiftui/view/navigationtitle(_:actions:)-1jl6s) - Configures the navigation title with associated actions and a title.
 * [navigationDocument](https://developer.apple.com/documentation/swiftui/view/navigationdocument(_:)-66zro) - Configures the view’s document for purposes of navigaiton.
 * [navigationDestination](https://developer.apple.com/documentation/swiftui/view/navigationdestination(for:destination:)) - Associates a destination view with a presented data type for use within a navigation stack.
 
