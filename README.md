@@ -99,9 +99,9 @@ Many of the modifiers that were just for Text can now be applied to any view and
 * [navigationDestination](https://developer.apple.com/documentation/swiftui/view/navigationdestination(for:destination:)) - Associates a destination view with a presented data type for use within a navigation stack.
 
 ## Toolbar Modifiers
-* [toolbar(:in:)](https://developer.apple.com/documentation/swiftui/view/toolbar(_:in:)) - Specifies the visibility of a bar managed by SwiftUI. (Place it automatically, bottom, navigation bar, tab bar or window toolbar.)
-* [toolbarBackground](https://developer.apple.com/documentation/swiftui/view/toolbarbackground(_:in:)-1k7vw) - Customize the background style.
-* [toolbarColorScheme](https://developer.apple.com/documentation/swiftui/view/toolbarcolorscheme(_:in:)) - Specifies the preferred color scheme (light or dark) of a bar.
+* [toolbar(:for:)](https://developer.apple.com/documentation/swiftui/view/toolbar(_:for:)) - Specifies the visibility of a bar managed by SwiftUI. (Place it automatically, bottom, navigation bar, tab bar or window toolbar.)
+* [toolbarBackground](https://developer.apple.com/documentation/charts/chart/toolbarbackground(_:for:)) - Specify the visibility of the background for the specified bar.
+* [toolbarColorScheme](https://developer.apple.com/documentation/charts/chart/toolbarcolorscheme(_:for:)) - Specifies the preferred color scheme (light or dark) for the specified bar.
 * [toolbarRole](https://developer.apple.com/documentation/swiftui/view/toolbarrole(_:)) - Configures the semantic role (automatic, browser, editor, navigationStack) for the content populating the toolbar.
 
 ## Context Menu
