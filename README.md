@@ -49,7 +49,8 @@ A list of everything new in SwiftUI after WWDC 2022.
 * Shadows can now be [drop](https://developer.apple.com/documentation/swiftui/shadowstyle/drop(color:radius:x:y:)) or [inner](https://developer.apple.com/documentation/swiftui/shadowstyle/inner(color:radius:x:y:)) shadows.
 
 ### NavigationLink
-* Works in combination with the [navigationDestination](https://developer.apple.com/documentation/swiftui/view/navigationdestination(for:destination:)) modifier. NavigationLinks have values and if there is a navigationDestination modifier that matches the NavigationLink's value type, then it is used and navigates to the view the navigationDestination specifies.
+* You can still use a basic NavigationLink with a string and destination. `(NavigationLink("Go here") { Text("Here") }`
+* Also works in combination with the [navigationDestination](https://developer.apple.com/documentation/swiftui/view/navigationdestination(for:destination:)) modifier. NavigationLinks have values and if there is a navigationDestination modifier that matches the NavigationLink's value type, then it is used and navigates to the view the navigationDestination specifies.
 
 ### Stepper
 * You can provide a [format](https://developer.apple.com/documentation/foundation/parseableformatstyle) parameter to handle conversions for number, percent, dateTime, iso8601 date format and now URL format.
